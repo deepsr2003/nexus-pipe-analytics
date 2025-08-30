@@ -23,9 +23,9 @@ try:
     # Use mysql.connector to connect
     mysql_conn = mysql.connector.connect(
         host="localhost",
-        user="usr",         # Use the user we created
-        password="pass",  # Use the password we set
-        database="nexuspipedb"    # Connect to our database
+        user="USERNAME_OF_YOUR_PRPJECT_DATABASE",         # Use the user we created
+        password="PASSWORD_OF_YOUR_PROJECT_DATABASE",  # Use the password we set
+        database="DATABASE_NAME"    # Connect to our database
     )
     print("MySQL connection successful.")
 except mysql.connector.Error as err:
