@@ -1,0 +1,31 @@
+.stat-card {
+  background-color: #2f2f2f;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  flex-grow: 1;
+}
+
+.stat-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #aaa;
+  text-transform: uppercase;
+}
+
+.stat-value {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
+
+.stat-unit {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  font-weight: 500;
+  color: #888;
+}

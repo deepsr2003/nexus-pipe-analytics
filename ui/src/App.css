@@ -1,0 +1,55 @@
+.dashboard-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dashboard-header {
+  text-align: left;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 1rem;
+}
+
+.dashboard-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.chart-container {
+  background-color: #2f2f2f;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ... existing styles ... */
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 1rem;
+}
+
+.connection-status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  background-color: #444;
+  color: #ddd;
+  font-weight: 500;
+}
+
+.connection-status.connected {
+  color: #5eff5e;
+}
+
+.stats-grid {
+  display: flex;
+  gap: 2rem;
+}
