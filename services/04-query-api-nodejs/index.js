@@ -17,9 +17,9 @@ const wss = new WebSocketServer({ server });
 // MySQL connection pool (UPDATED)
 const mysqlPool = mysql.createPool({
   host: 'localhost',
-  user: 'usr',
-  password: 'pass',
-  database: 'nexuspipedb',
+  user: 'PASSWORD_OF_PROJECT_DATABASE',
+  password: 'PASSWORD_OF_DAtABAE',
+  database: 'DATABASE_NAME',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
