@@ -3,7 +3,6 @@
 NexusPipe is a distributed, fault-tolerant pipeline that ingests, processes, and visualizes high-throughput user event data in real-time.
 
 ## Architecture
-[Insert a simple architecture diagram here. You can create one easily with tools like Excalidraw or draw.io]
 
 The system consists of four main microservices that communicate asynchronously via Apache Kafka:
 1.  **Collector Service (Node.js):** A high-performance ingestion endpoint.
